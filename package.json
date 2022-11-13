@@ -1,0 +1,27 @@
+{
+  "name": "fastapi_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takuma1229/fastapi_tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takuma1229/fastapi_tutorial/issues"
+  },
+  "homepage": "https://github.com/takuma1229/fastapi_tutorial#readme",
+  "dependencies": {
+    "netlify-lambda": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "netlify-lambda serve  /",
+    "build": "netlify-lambda build /"
+  }
+}
